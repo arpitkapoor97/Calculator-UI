@@ -33,7 +33,7 @@
   margin: 1rem;
   text-align: end;
   font-weight: 500;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 #last-eval {
   position: absolute;
