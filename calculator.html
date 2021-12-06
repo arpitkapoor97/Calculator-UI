@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="result-bar">
+        <div id="last-eval"></div>
+        <div id="res" class="result"></div>
+      </div>
+      <div hidden id="error-msg" class="error">Invalid Evaluation</div>
+      <div class="button-container">
+        <div class="button oper">(</div>
+        <div class="button oper">)</div>
+        <div class="button" id="bkspc">BKSPC</div>
+        <div class="button" id="clear">AC</div>
+        <div class="button num">7</div>
+        <div class="button num">8</div>
+        <div class="button num">9</div>
+        <div class="button oper">/</div>
+        <div class="button num">4</div>
+        <div class="button num">5</div>
+        <div class="button num">6</div>
+        <div class="button oper">*</div>
+        <div class="button num">1</div>
+        <div class="button num">2</div>
+        <div class="button num">3</div>
+        <div class="button oper">-</div>
+        <div class="button num">0</div>
+        <div class="button" id="dot">.</div>
+        <div class="button" id="eval">=</div>
+        <div class="button oper">+</div>
+      </div>
+    </div>
+
+    <script src="./calculator.js"></script>
+  </body>
+</html>
